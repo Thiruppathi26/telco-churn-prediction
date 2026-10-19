@@ -44,8 +44,6 @@ IBM Telco Customer Churn dataset: 7,043 customers, 21 columns (contract, tenure,
 Accuracy alone is misleading here, because about 73% of customers stay. The balanced model gives up some accuracy and precision to catch many more real churners (291 of 372), at the cost of more false alarms (283). Since a lost customer usually costs more than a retention offer, this trade-off favors the balanced model. The final model is Logistic Regression with `class_weight='balanced'`.
 
 ## What drives churn
-![Coefficients](images/coefficients.png)
-
 - **Toward churn:** fiber optic internet, streaming services, electronic check payment.
 - **Toward staying:** longer tenure, two-year and one-year contracts.
 - `TotalCharges` and `MonthlyCharges` overlap with tenure and each other (multicollinearity), so their individual coefficients are not interpreted.
