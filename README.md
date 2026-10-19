@@ -2,7 +2,7 @@
 
 Predicts which telecom customers are likely to leave, explains why, and lets anyone score a customer in a Streamlit app.
 
-**Live app:** [add your Streamlit link here]  |  **Notebook:** `Telco_Customer_Churn.ipynb`
+**Live app:** [https://telco-churn-prediction-tkxcpoi5j29ms47zqrrjfb.streamlit.app/]  |  **Notebook:** `Telco_Customer_Churn.ipynb`
 
 ![App preview](app.png)
 
